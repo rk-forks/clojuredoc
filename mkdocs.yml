@@ -2,6 +2,7 @@
 # Practicalli Clojure
 site_name: Practicalli Clojure
 site_url: https://practical.li/clojure
+dev_addr: '0.0.0.0:8000'
 site_description: Practical guide to Clojure programming language and Clojure REPL driven development
 site_author: Practicalli
 copyright: Copyright &copy 2023  Practicali <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
@@ -85,6 +86,7 @@ markdown_extensions:
 
 ## Plugins
 plugins:
+  - with-pdf
   # Explicitly add search plugin when defining plugins in this configuration file
   - search
   - callouts
